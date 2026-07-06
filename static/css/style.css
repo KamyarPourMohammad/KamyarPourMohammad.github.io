@@ -269,3 +269,30 @@ nav a.active{
     border-radius:50px;
 
 }
+.skill-category{
+
+    margin-bottom:45px;
+
+}
+
+.skill-category h3{
+
+    margin-bottom:18px;
+
+    font-size:22px;
+
+    color:#444;
+
+    font-weight:600;
+
+}
+
+.KamyarImage{
+    float: left;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin-left: 60px;
+  margin-right: auto;
+  
+}
