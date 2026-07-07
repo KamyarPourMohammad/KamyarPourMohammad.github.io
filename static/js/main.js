@@ -1,5 +1,5 @@
 const texts = [
-    "Computer Vision, Machine Learning and Neural netwok."
+    "AI & Data Engineering enthusiast with hands-on experience in Neural Networks, Computer Vision, and NLP. From fine-tuning Q&A models to analyzing complex datasets — Let's turn data into intelligence."
 ];
 
 let textIndex = 0;
@@ -15,7 +15,7 @@ function type(){
 
         charIndex++;
 
-        setTimeout(type,70);
+        setTimeout(type,25);
 
     }
 }
