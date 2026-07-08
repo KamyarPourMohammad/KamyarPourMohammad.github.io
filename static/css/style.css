@@ -496,3 +496,215 @@ nav a.active{
     color:#555;
 
 }
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 992px){
+
+    h1{
+        font-size:46px;
+    }
+
+    .description{
+        font-size:21px;
+    }
+
+    .hero{
+        margin:90px auto;
+    }
+
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width:768px){
+
+    header{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        padding:20px;
+
+        text-align:center;
+
+    }
+
+    nav{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:18px;
+
+    }
+
+    .hero{
+
+        margin:70px auto;
+
+        text-align:center;
+
+        padding:20px;
+
+    }
+
+    .intro{
+
+        font-size:18px;
+
+    }
+
+    h1{
+
+        font-size:38px;
+
+    }
+
+    .description{
+
+        font-size:18px;
+
+        line-height:1.8;
+
+    }
+
+    .buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .buttons a{
+
+        width:100%;
+
+        max-width:280px;
+
+        text-align:center;
+
+    }
+
+    .about,
+    .education,
+    .interests,
+    .skills,
+    .publications,
+    .timeline,
+    .contact{
+
+        margin:70px auto;
+
+    }
+
+    .about h1,
+    .education h2,
+    .interests h2,
+    .skills h2,
+    .publications h2,
+    .contact h1{
+
+        font-size:34px;
+
+    }
+
+    .about p{
+
+        font-size:18px;
+
+    }
+
+    .interests ul{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .skills-grid{
+
+        justify-content:center;
+
+    }
+
+    .KamyarImage{
+
+        float:none;
+
+        display:block;
+
+        margin:0 auto 30px;
+
+        width:130px;
+
+        height:130px;
+
+    }
+
+}
+
+
+/* =========================
+   Small Phones
+========================= */
+
+@media (max-width:480px){
+
+    h1{
+
+        font-size:30px;
+
+    }
+
+    .description{
+
+        font-size:16px;
+
+    }
+
+    .intro{
+
+        font-size:16px;
+
+    }
+
+    .about h1,
+    .education h2,
+    .interests h2,
+    .skills h2,
+    .publications h2,
+    .timeline h2,
+    .contact h1{
+
+        font-size:28px;
+
+    }
+
+    .contact>p{
+
+        font-size:17px;
+
+    }
+
+    .contact-card{
+
+        padding:20px;
+
+    }
+
+    .download-btn{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+}
